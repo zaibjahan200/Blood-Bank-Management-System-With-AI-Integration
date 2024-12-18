@@ -62,7 +62,6 @@ public class addNewDonor extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 204, 204));
         setLocation(new java.awt.Point(0, 0));
-        setLocationByPlatform(true);
         setUndecorated(true);
         setSize(new java.awt.Dimension(700, 500));
         addComponentListener(new java.awt.event.ComponentAdapter() {
@@ -213,6 +212,7 @@ public class addNewDonor extends javax.swing.JFrame {
         getContentPane().add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 790, 480));
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void formComponentShown(java.awt.event.ComponentEvent evt) {//GEN-FIRST:event_formComponentShown
@@ -269,7 +269,7 @@ public class addNewDonor extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
-        String donorId = jLabel3.getText();
+    String donorId = jLabel3.getText();
     String name = jTextField6.getText();
     String fatherName = jTextField5.getText();
     String motherName = jTextField2.getText();
