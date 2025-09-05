@@ -33,7 +33,7 @@ To get the application up and running, follow these simple steps.
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/your-username/blood-bank-management-system.git
+   git clone https://github.com/zaibjahan200/Blood-Bank-Management-System-With-AI-Integration
    ```
 2. **Database Setup**:
    - Create a new database in MySQL named `bbms`.
